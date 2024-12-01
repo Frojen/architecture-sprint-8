@@ -11,7 +11,6 @@ keycloak_config = KeycloakConfiguration(
     client_secret=settings.KEYCLOAC_CLIENT_SECRET,
     authorization_method=AuthorizationMethod.CLAIM,
     authorization_claim="realm_access",
-    use_introspection_endpoint=True,
 )
 
 
